@@ -4,12 +4,18 @@ params.name = {'H', 'L', 'gamma', 'V0', 'C0', 'T0', 'iav'};
 params.step = [0.003, 0.01, pi/12, 0.00005, 50, 15, 10];
 params.tol = [0.0005, 0.001, pi/32, 0.00001, 1, 1, 1];
 <<<<<<< HEAD
+<<<<<<< HEAD
 % Патч 1
 
 =======
 
 % Патч 2
 >>>>>>> ac905e4909730aa826eac1d0376738e8f964a8b0
+=======
+% Патч 1
+% Патч 2
+
+>>>>>>> 3efd6724f1420d4064aa13cd29a46c67adc04c05
 maxIter = 5;
 timeout = 10*60;
 func = @(param) f(param);
