@@ -4,6 +4,7 @@ params.name = {'H', 'L', 'gamma', 'V0', 'C0', 'T0', 'iav'};
 params.step = [0.003, 0.01, pi/12, 0.00005, 50, 15, 10];
 params.tol = [0.0005, 0.001, pi/32, 0.00001, 1, 1, 1];
 % Патч 1
+% Патч 2
 
 maxIter = 5;
 timeout = 10*60;
